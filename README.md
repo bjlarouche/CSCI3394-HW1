@@ -15,3 +15,10 @@ You need to do the following:
 To find the SHA-1 hash value of a string s, you can execute the following Python code:
 import hashlib
 hashval=hashlib.sha1(s).hexdigest()
+
+## Answers:
+Two Tupes:
+1) It took 997788 SHA-1 calls.
+Matched 91b393d39c36008acefe08f6a1c67fa6bcfdde4f to 91b393d39cadbc8dd68169c4be22f4f1f1843e30, which are ASCII b'0x2509220' and b'0x258e279'.
+2) It took 1256814 SHA-1 calls.
+Matched 99d857777ec785232554753e19a8ac4f6995edd0 to 99d857777e9f0d2e074a3f04d3e102e3e3c28675, which are ASCII b'0x17e5b3e' and b'0x4e66237'.
