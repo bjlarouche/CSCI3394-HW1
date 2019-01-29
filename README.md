@@ -17,7 +17,7 @@ import hashlib
 hashval=hashlib.sha1(s).hexdigest()
 
 ## Answers:
-Two Tupes:
+Two Tuples:
 1) It took 997788 SHA-1 calls.
 Matched 91b393d39c36008acefe08f6a1c67fa6bcfdde4f to 91b393d39cadbc8dd68169c4be22f4f1f1843e30, which are ASCII b'0x2509220' and b'0x258e279'.
 2) It took 1256814 SHA-1 calls.
